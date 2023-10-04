@@ -1,0 +1,19 @@
+{
+    "features": [
+        {
+            "img": "\\home-design-studio-image-01.png",
+            "title": "Modern Design",
+            "text": "Brook embraces a modern look with various enhanced pre-defined page elements."
+        },
+        {
+            "img": "\\home-design-studio-image-02.png",
+            "title": "Multi-purpose Use",
+            "text": "This is the theme for businesses & companies operating in a wide range of areas."
+        },
+        {
+            "img": "\\home-design-studio-image-03.png",
+            "title": "Responsive Design",
+            "text": "Brook is highly responsive thanks to built-in WPBakery Page Builder & Slider Revolution plugins."
+        }
+    ]
+}
