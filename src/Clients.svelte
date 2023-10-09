@@ -1,3 +1,13 @@
+<script>
+    let logos = [
+        'https://picsum.photos/seed/logo1/80/80?grayscale&blur=10',
+        'https://picsum.photos/seed/logo2/80/80?grayscale&blur=10',
+        'https://picsum.photos/seed/logo3/80/80?grayscale&blur=10',
+        'https://picsum.photos/seed/logo4/80/80?grayscale&blur=10',
+        'https://picsum.photos/seed/logo5/80/80?grayscale&blur=10',
+        'https://picsum.photos/seed/logo6/80/80?grayscale&blur=10',
+    ];
+</script>
 <div class="container-fluid p-0">
     <div class="row">
       <div class="col-6 d-flex align-items-center bg-secondary-subtle p-0">
@@ -13,14 +23,9 @@
       </div>
       <div class="col-6 p-0">
           <div class="row px-5 pt-5 mb-5">
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo1/80/80?grayscale&blur=10"></div>
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo2/80/80?grayscale&blur=10"></div>
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo3/80/80?grayscale&blur=10"></div>
-          </div>
-          <div class="row px-5 pb-5">
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo4/80/80?grayscale&blur=10"></div>
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo5/80/80?grayscale&blur=10"></div>
-            <div class="col-4 px-5"><img class="w-100" src="https://picsum.photos/seed/logo6/80/80?grayscale&blur=10"></div>
+            {#each logos as logo}
+                <div class="col-4 px-5 mb-5"><img class="w-100" src={logo}></div>
+            {/each}
           </div>
       </div>
     </div>
